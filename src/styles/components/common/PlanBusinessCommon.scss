@@ -1,0 +1,74 @@
+.planBusinessCommon {
+  background: $color-tertiary-four;
+  width: 374px;
+  height: 644px;
+  border-radius: 20px;
+  margin: 20px 20px;
+  padding: 10px 0px;
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: $color-tertiary-two;
+  }
+  p:nth-child(2) {
+    width: 210px;
+    height: 54px;
+    margin: 0 90px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: $color-tertiary-three;
+  }
+  p:nth-child(3) {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -70px;
+    color: $color-tertiary-three;
+  }
+  p:nth-child(4) {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: -20px;
+    color: $color-tertiary-two;
+  }
+  &_list {
+    background: $color-senary;
+    width: 334px;
+    height: 380px;
+    border-radius: 10px;
+    margin: -15px 15px 0;
+    padding-top: 5px;
+    ul {
+      list-style-type: none;
+      li {
+        background-image: url("../../../../public/assets/icons/list.svg");
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $color-tertiary-two;
+      }
+    }
+    button {
+      background: $color-tertiary-four;
+      width: 260px;
+      height: 64px;
+      border: none;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 30px;
+      color: $color-quinary;
+      margin: 0 40px;
+    }
+  }
+}

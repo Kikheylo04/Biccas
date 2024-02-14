@@ -1,0 +1,22 @@
+.characteristicDataHome {
+  display: flex;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      margin: 20px 40px 20px 0;
+      p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        color: $color-tertiary-two;
+      }
+      p:nth-child(3) {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $color-tertiary-three;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@mixin modify-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: $color-tertiary-three;
+}
+
+.aboutDoWhithTestimonyHome {
+  width: 466px;
+  height: 588px;
+  margin-right: 21px;
+  &_text {
+    h2 {
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 61px;
+      color: $color-tertiary-four;
+    }
+    p {
+      @include modify-text();
+    }
+  }
+  &_comment {
+    width: 461px;
+    height: 238px;
+    p:nth-child(2) {
+      @include modify-text();
+    }
+    p:nth-child(3) {
+      @include modify-text();
+    }
+  }
+  &_people {
+    img {
+      margin: 0 20px 0 0;
+    }
+  }
+}

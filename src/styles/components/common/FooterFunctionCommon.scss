@@ -1,0 +1,62 @@
+.footerFunctionCommon {
+  display: flex;
+  align-items: end;
+  margin: 20px 0 0 180px;
+  &_support {
+    margin: 0 30px;
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $color-tertiary-four;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 35px;
+        color: $color-tertiary-three;
+      }
+    }
+  }
+  &_helpAndSolution {
+    margin: 0 30px;
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $color-tertiary-four;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 35px;
+        color: $color-tertiary-three;
+      }
+    }
+  }
+  &_product {
+    margin: 0 30px;
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $color-tertiary-four;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 35px;
+        color: $color-tertiary-three;
+      }
+    }
+  }
+}

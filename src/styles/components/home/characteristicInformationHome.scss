@@ -1,0 +1,31 @@
+.characteristicInformationHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61px;
+    color: rgba(25, 26, 21, 1);
+    margin-right: 60px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(166, 166, 166, 1);
+    margin-right: 60px;
+  }
+  button {
+    background: $color-quinary;
+    width: 182px;
+    height: 66px;
+    border-radius: 70px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $color-senary;
+    margin-left: 25px;
+  }
+}

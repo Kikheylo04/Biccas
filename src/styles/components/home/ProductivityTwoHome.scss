@@ -1,0 +1,222 @@
+@mixin circle {
+  background: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  margin: auto 3px;
+}
+.productivityTwoHome {
+  margin: 60px 0 0 140px;
+  img {
+    position: absolute;
+  }
+  &_amount {
+    display: flex;
+    position: relative;
+    width: 262px;
+    height: 78px;
+    top: 30px;
+    right: 150px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    &_text {
+      p:nth-child(1) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        color: rgba(169, 167, 182, 1);
+        padding-left: 10px;
+      }
+      p:nth-child(2) {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+        padding-left: 10px;
+      }
+    }
+    &_button {
+      margin-top: 15px;
+      margin-left: 100px;
+      button {
+        width: 64px;
+        height: 28px;
+        border-radius: 40px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        background: $color-quinary;
+        color: $color-senary;
+        border: none;
+      }
+    }
+  }
+  &_ready {
+    background: #4535af;
+    width: 15px;
+    height: 15px;
+    margin-top: 105px;
+    right: 50px;
+    padding: 15px 10px 10px;
+    transform: rotate(-15deg);
+    border-radius: 10px;
+    position: relative;
+  }
+
+  &_income {
+    display: flex;
+    position: relative;
+    width: 138px;
+    height: 70px;
+    top: 200px;
+    right: 65px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    &_text {
+      p:nth-child(1) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        color: rgba(169, 167, 182, 1);
+        padding-left: 10px;
+      }
+      p:nth-child(2) {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+        padding-left: 10px;
+      }
+    }
+    &_statistic {
+      img {
+        margin-top: 40px;
+        margin-left: 25px;
+      }
+    }
+  }
+  &_database {
+    position: relative;
+    bottom: 275px;
+    left: 384px;
+  }
+  &_card {
+    background-color: rgba(22, 28, 40, 1);
+    position: relative;
+    width: 126px;
+    height: 148px;
+    top: 20px;
+    left: 340px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    overflow: hidden;
+    transform: rotate(15deg);
+    &_backgroundCardCircle1 {
+      background-color: #232937;
+      position: absolute;
+      width: 158px;
+      height: 158px;
+      top: -69.81px;
+      left: 90px;
+      border-radius: 50%;
+    }
+    &_backgroundCardCircle2 {
+      background-color: #232937;
+      position: absolute;
+      width: 158px;
+      height: 158px;
+      top: 90px;
+      left: -80px;
+      border-radius: 50%;
+    }
+    &_circle {
+      display: flex;
+      position: relative;
+      &_circle1 {
+        background-color: #8a8d93;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        z-index: 1;
+      }
+      &_circle2 {
+        background-color: #8a8d93;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        margin-left: 15px;
+        z-index: 2;
+      }
+    }
+    &_creaditcard {
+      position: relative;
+      margin-top: 50px;
+      p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        color: rgba(230, 230, 230, 1);
+      }
+      &_circle {
+        display: flex;
+        margin-top: -17px;
+        &_circle1 {
+          @include circle();
+        }
+        &_circle2 {
+          @include circle();
+        }
+        &_circle3 {
+          @include circle();
+        }
+        &_circle4 {
+          @include circle();
+        }
+        p {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          color: rgba(230, 230, 230, 1);
+          margin-left: 11px;
+        }
+      }
+    }
+    &_date {
+      display: inline-flex;
+      position: relative;
+      margin-top: 20px;
+      &_rectangle {
+        width: 34px;
+        height: 22px;
+        border-radius: 4px;
+        background-color: #4f545f;
+      }
+      &_text {
+        margin-left: 60px;
+        p {
+          margin-top: 4px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          color: rgba(248, 248, 250, 1);
+        }
+      }
+    }
+  }
+  &_message {
+    position: relative;
+    top: 25px;
+    left: 304px;
+  }
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.5;
+}

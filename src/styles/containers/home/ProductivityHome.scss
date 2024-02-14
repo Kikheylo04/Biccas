@@ -1,0 +1,13 @@
+@import "../../components/home/ProductivityOneHome.scss";
+@import "../../components/home/ProductivityTwoHome.scss";
+
+.productivityHome {
+  display: flex;
+  background: linear-gradient(
+    0.24turn,
+    $color-primary,
+    $color-secondary,
+    $color-primary
+  );
+  padding-left: 130px;
+}

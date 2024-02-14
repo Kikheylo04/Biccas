@@ -1,0 +1,44 @@
+.supportInformationHome {
+  &_text {
+    h2 {
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 61px;
+      color: rgba(25, 26, 21, 1);
+    }
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 30px;
+      color: rgba(166, 166, 166, 1);
+    }
+  }
+  &_quality {
+    ul {
+      display: flex;
+      padding-left: 0;
+      list-style-type: none;
+      li {
+        margin: 80px 60px 0 0;
+        p:nth-child(2) {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          color: black;
+          span {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            color: black;
+          }
+        }
+        p:nth-child(3) {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          color: rgba(166, 166, 166, 1);
+        }
+      }
+    }
+  }
+}

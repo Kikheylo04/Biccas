@@ -1,0 +1,103 @@
+.planProCommon {
+  background: $color-quinary;
+  width: 374px;
+  height: 684px;
+  border-radius: 20px;
+  margin: 0 20px;
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+  &_price {
+    margin-bottom: 10px;
+    position: relative;
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 36px;
+      text-align: center;
+      color: $color-tertiary-four;
+    }
+    p:nth-child(2) {
+      width: 210px;
+      height: 54px;
+      margin: 0 90px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: center;
+      color: $color-tertiary-four;
+    }
+    p:nth-child(3) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: center;
+      margin-left: -45px;
+      color: $color-tertiary-four;
+    }
+    p:nth-child(4) {
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: center;
+      margin: -25px 0 15px;
+      color: $color-tertiary-four;
+    }
+    button {
+      background-color: rgba(133, 218, 185, 1);
+      width: 130px;
+      height: 40px;
+      margin: 0 122px 10px;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 30px;
+      color: $color-tertiary-four;
+    }
+  }
+  &_circle {
+    background: rgba(107, 194, 161, 1);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: -120px;
+    top: 160px;
+    border-radius: 50%;
+  }
+  &_list {
+    background-color: $color-tertiary-four;
+    width: 334px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 10px 20px 0;
+    padding-top: 5px;
+    position: relative;
+    ul {
+      list-style-type: none;
+      li {
+        background-image: url("../../../../public/assets/icons/list.svg");
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $color-tertiary-two;
+      }
+    }
+    button {
+      background: $color-quinary;
+      width: 260px;
+      height: 64px;
+      border-radius: 20px;
+      border: none;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 30px;
+      color: $color-tertiary-four;
+      margin: 0 40px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../components/home/characteristicInformationHome.scss";
+@import "../../components/home/CharacteristicDataHome.scss";
+
+.CharacteristicHome {
+  background: linear-gradient(
+    0.22turn,
+    $color-primary-two,
+    $color-primary-three,
+    #ffffff
+  );
+  padding: 60px 130px;
+}

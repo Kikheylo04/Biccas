@@ -1,0 +1,14 @@
+@import "../../components/home/BenefitListHome.scss";
+@import "../../components/home/BenefitDataHome.scss";
+
+.benefitHome {
+  background: linear-gradient(
+    0.44turn,
+    $color-primary-two,
+    $color-tertiary-three,
+    $color-primary
+  );
+  display: flex;
+  padding-left: 130px;
+  padding-bottom: 100px;
+}

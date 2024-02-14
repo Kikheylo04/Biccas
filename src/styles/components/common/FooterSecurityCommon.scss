@@ -1,0 +1,27 @@
+.footerSecurityCommon {
+  display: flex;
+  margin-top: 30px;
+  &_copyright {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $color-tertiary-four;
+  }
+  &_conditionPrivacity {
+    display: flex;
+    padding-left: 500px;
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      color: $color-tertiary-four;
+    }
+    &_circle {
+      background-color: $color-tertiary-three;
+      width: 4px;
+      height: 4px;
+      margin: 30px 10px 0 10px;
+      border-radius: 50%;
+    }
+  }
+}

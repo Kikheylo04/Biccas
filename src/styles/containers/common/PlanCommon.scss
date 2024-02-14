@@ -1,0 +1,18 @@
+@import "../../components/common/PlanContactCommon.scss";
+@import "../../components/common/PlanFreeCommon.scss";
+@import "../../components/common/PlanProCommon.scss";
+@import "../../components/common/PlanBusinessCommon.scss";
+
+.planCommon {
+  background: linear-gradient(
+    0.37turn,
+    $color-tertiary-four,
+    $color-primary,
+    $color-primary
+  );
+  padding: 40px 0;
+  &_plans {
+    display: flex;
+    justify-content: center;
+  }
+}

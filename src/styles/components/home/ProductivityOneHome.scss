@@ -1,0 +1,53 @@
+.productivityOneHome {
+  margin-right: 140px;
+  &_information {
+    h2 {
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 90px;
+      color: rgba(25, 26, 21, 1);
+      margin-bottom: 20px;
+    }
+    p {
+      margin: 40px 0;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+  &_button {
+    display: flex;
+    &_one {
+      background-color: $color-quinary;
+      width: Hug (165px);
+      height: Hug (62px);
+      padding: 20px 30px 20px 30px;
+      gap: 10px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21.78px;
+      color: $color-senary;
+      border: none;
+      border-radius: 40px;
+    }
+    &_two {
+      display: flex;
+      background: none;
+      margin-left: 60px;
+      width: Hug (152px);
+      height: Hug (40px);
+      gap: 14px;
+      border: none;
+      img {
+        margin-top: 6px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: rgba(25, 26, 21, 1);
+      }
+    }
+  }
+}

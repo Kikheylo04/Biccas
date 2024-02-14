@@ -1,0 +1,26 @@
+.benefitListHome {
+  margin-right: 110px;
+  width: 471px;
+  h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    color: $color-tertiary-two;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+      background-image: url("../../../../public/assets/icons/list.svg");
+      background-repeat: no-repeat;
+      padding-left: 50px;
+      margin-bottom: 35px;
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: $color-tertiary-two;
+      }
+    }
+  }
+}

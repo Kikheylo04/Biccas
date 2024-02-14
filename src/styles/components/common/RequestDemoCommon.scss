@@ -1,0 +1,68 @@
+.requestDemoCommon {
+  background: rgba(34, 41, 56, 1);
+  width: 440px;
+  height: 472px;
+  margin: 40px 0 0 80px;
+  padding: 20px 86px 96px 86px;
+  border-radius: 20px;
+  &_title {
+    img {
+      margin: 0 190px;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 36px;
+      text-align: center;
+      color: $color-tertiary-four;
+    }
+  }
+  &_form {
+    p:nth-child(1) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $color-tertiary-four;
+    }
+    input:nth-child(2) {
+      width: 420px;
+      height: 50px;
+      padding-left: 20px;
+      border-radius: 10px;
+    }
+    p:nth-child(3) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $color-tertiary-four;
+    }
+    textarea:nth-child(4) {
+      width: 420px;
+      height: 60px;
+      padding: 20px 0px 0px 20px;
+      border-radius: 10px;
+    }
+    button:nth-child(5) {
+      background: $color-quinary;
+      width: 440px;
+      height: 80px;
+      margin-top: 20px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
+      color: $color-tertiary-four;
+    }
+    p:nth-child(6) {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      color: $color-tertiary-four;
+      text-align: end;
+      margin-right: 10px;
+      span {
+        color: $color-tertiary-three;
+      }
+    }
+  }
+}
