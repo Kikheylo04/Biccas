@@ -41,3 +41,14 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .planContactCommon {
+    h2 {
+      margin-right: 80px;
+    }
+    &_button {
+      position: relative;
+      right: 480px;
+    }
+  }
+}

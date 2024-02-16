@@ -5,3 +5,9 @@
   display: flex;
   padding: 0 130px;
 }
+@media (max-width: 480px) {
+  .supportHome {
+    display: block;
+    padding: 0 60px;
+  }
+}

@@ -5,3 +5,9 @@
   display: flex;
   padding: 80px 130px 80px;
 }
+@media (max-width: 480px) {
+  .aboutDoWhithHome {
+    display: block;
+    padding: 80px 15px;
+  }
+}

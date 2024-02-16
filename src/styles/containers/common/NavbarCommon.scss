@@ -8,7 +8,6 @@
   );
   padding-left: 130px;
   &_left {
-    margin-right: 180px;
     h2 {
       font-weight: 500;
       font-size: 50px;
@@ -34,8 +33,7 @@
     }
   }
   &_right {
-    margin-top: 40px;
-    margin-right: 130px;
+    margin: 40px 130px 0 0;
     &_button1 {
       background: none;
       border: none;
@@ -54,6 +52,17 @@
       color: $color-senary;
       border: none;
       border-radius: 10px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .navbarCommon {
+    padding-left: 60px;
+    &_center {
+      display: none;
+    }
+    &_right {
+      margin: 40px 0px 0 140px;
     }
   }
 }

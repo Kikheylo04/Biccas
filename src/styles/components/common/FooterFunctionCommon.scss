@@ -60,3 +60,14 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .footerFunctionCommon {
+    margin: 20px 0 0 10px;
+    &_support {
+      margin-bottom: 120px;
+    }
+    &_product {
+      margin-bottom: 125px;
+    }
+  }
+}

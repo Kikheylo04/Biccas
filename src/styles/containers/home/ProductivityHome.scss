@@ -11,3 +11,9 @@
   );
   padding-left: 130px;
 }
+@media (max-width: 480px) {
+  .productivityHome {
+    display: block;
+    padding-left: 60px;
+  }
+}

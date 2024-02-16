@@ -5,10 +5,15 @@
   background: linear-gradient(
     0.44turn,
     $color-primary-two,
-    $color-tertiary-three,
+    $color-primary-three,
     $color-primary
   );
   display: flex;
-  padding-left: 130px;
-  padding-bottom: 100px;
+  padding: 0 0 100px 130px;
+}
+@media (max-width: 480px) {
+  .benefitHome {
+    display: block;
+    padding: 0 0 40px 60px;
+  }
 }

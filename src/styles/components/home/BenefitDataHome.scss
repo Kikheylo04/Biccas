@@ -108,3 +108,29 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .benefitDataHome {
+    margin-left: 40px;
+    &_laptop {
+      margin-left: 0px;
+      img {
+        width: 240px;
+        margin-top: -100px;
+      }
+    }
+
+    &_gallery {
+      position: relative;
+      top: 80px;
+      right: 60px;
+    }
+    &_transferSuccessfull {
+      top: 140px;
+      right: 80px;
+    }
+    &_income {
+      bottom: 80px;
+      left: 180px;
+    }
+  }
+}

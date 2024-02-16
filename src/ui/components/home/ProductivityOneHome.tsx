@@ -19,7 +19,6 @@ export const ProductivityOneHome = () => {
           every day.
         </p>
       </div>
-
       <div className="productivityOneHome_button">
         <button className="productivityOneHome_button_one">
           Try free trial

@@ -9,3 +9,12 @@
     display: flex;
   }
 }
+@media (max-width: 480px) {
+  .footerCommon {
+    padding: 20px 20px;
+    &_information {
+      display: block;
+      margin-right: 50px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 @import "../../components/home/characteristicInformationHome.scss";
 @import "../../components/home/CharacteristicDataHome.scss";
 
-.CharacteristicHome {
+.characteristicHome {
   background: linear-gradient(
     0.22turn,
     $color-primary-two,
@@ -9,4 +9,9 @@
     #ffffff
   );
   padding: 60px 130px;
+}
+@media (max-width: 480px) {
+  .characteristicHome {
+    padding: 60px 50px;
+  }
 }

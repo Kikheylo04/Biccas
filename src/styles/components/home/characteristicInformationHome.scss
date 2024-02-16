@@ -29,3 +29,13 @@
     margin-left: 25px;
   }
 }
+@media (max-width: 480px) {
+  .characteristicInformationHome {
+    display: block;
+    align-items: none;
+    justify-content: none;
+    button {
+      margin: 20px 20px 0 0;
+    }
+  }
+}

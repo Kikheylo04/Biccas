@@ -25,3 +25,14 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .footerSecurityCommon {
+    margin: 20px 0 0 10px;
+    &_conditionPrivacity {
+      padding-left: 20px;
+      &_circle {
+        margin: 50px 10px 0 10px;
+      }
+    }
+  }
+}

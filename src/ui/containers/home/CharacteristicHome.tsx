@@ -4,7 +4,7 @@ import { CharacteristicInformationHome } from "../../components/home/Characteris
 
 export const CharacteristicHome = () => {
   return (
-    <div className="CharacteristicHome">
+    <div className="characteristicHome">
       <CharacteristicInformationHome />
       <CharacteristicDataHome />
     </div>
