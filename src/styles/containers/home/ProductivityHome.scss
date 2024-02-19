@@ -13,7 +13,7 @@
 }
 @media (max-width: 480px) {
   .productivityHome {
-    display: block;
-    padding-left: 60px;
+    padding: 0 480px 0 280px;
+    justify-content: center;
   }
 }

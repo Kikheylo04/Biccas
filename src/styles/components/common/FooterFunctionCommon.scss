@@ -62,12 +62,15 @@
 }
 @media (max-width: 480px) {
   .footerFunctionCommon {
-    margin: 20px 0 0 10px;
+    margin: 20px 0 0 140px;
     &_support {
       margin-bottom: 120px;
     }
+    &_helpAndSolution {
+      margin-bottom: 120px;
+    }
     &_product {
-      margin-bottom: 125px;
+      margin-bottom: 120px;
     }
   }
 }
